@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">  
+        <title>Dojo Weather</title>
+    </head>
+    <body>
+
+        <!-- ---------- header ---------- -->
+        <div class="header">
+            <h1>Dojo Weather</h1>
+            <ol class="nav-bar-locations">
+                <li>Burbank</li>
+                <li>Chicago</li>
+                <li>Dallas</li>
+            </ol>
+        </div>
+
+        <!-- ---------- city ---------- -->
+        <div class="current-city">
+            <h1>San Jose</h1>
+            <div class="change-units">
+                <label for="toggle-temperature">show temperature in</label>
+                <select name="toggle-temperature" id="toggle-temperature">
+                    <option value="celsius">&#176C</option>
+                    <option value="farenheit">&#176F</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- ---------- forecast ---------- -->
+        <div class="flex-container">
+            <div class="temp-card">
+                <h2>Today</h2>
+                <img src="assets\some_rain.png" alt="rain-image">
+                <p>some rain</p>
+                <div class="high-low">
+                    <p class="high">72&#176</p>
+                    <p class="low">65&#176</p>
+                </div>
+            </div>
+            <div class="temp-card">
+                <h2>Tomorrow</h2>
+                <img src="assets\some_sun.png" alt="sun-image">
+                <p>some sun</p>
+                <div class="high-low">
+                    <p class="high">80&#176</p>
+                    <p class="low">66&#176</p>
+                </div>
+            </div>
+            <div class="temp-card">
+                <h2>Friday</h2>
+                <img src="assets\some_clouds.png" alt="cloud-image">
+                <p>some clouds</p>
+                <div class="high-low">
+                    <p class="high">69&#176</p>
+                    <p class="low">61&#176</p>
+                </div>
+            </div>
+            <div class="temp-card">
+                <h2>Saturday</h2>
+                <img src="assets\some_sun.png" alt="sun-image">
+                <p>some sun</p>
+                <div class="high-low">
+                    <p class="high">78&#176</p>
+                    <p class="low">70&#176</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------- cookie ---------- -->
+        <div class="cookie-container">
+            <img src="assets\cookie.png" alt="cookie-image">
+            <div class="cookie-text">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button>I Accept</button>
+        </div>
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

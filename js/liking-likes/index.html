@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">  
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <h2>Network</h2>
+    </div>
+    <h1>Your Feed</h1>
+    <div class="flex-container">
+        <div class="col" id="profile-card">
+            <img src="user-circle.png" alt="user-avatar">
+            <a href="#">Add an avatar</a>
+            <p class="user-name">James Doe</p>
+        </div>
+        <div class="col" id="feed">
+            <div class="user-post-container">
+                <div class="user-post-header">
+                    <div class="feed-names">
+                        <p class="user-name">Neil M</p>
+                    </div>
+                    <div class="likes">
+                        <p class="like-number"><span class="like-count-1">9</span> like(s)</p>
+                        <button id="button-1" onclick="incrementLike(this.id)">Like</button>
+                    </div>
+                </div>
+                <div class="description-container">
+                    <p class="description">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="user-post-container">
+                <div class="user-post-header">
+                    <div class="feed-names">
+                        <p class="user-name">Nichole K</p>
+                    </div>
+                    <div class="likes">
+                        <p class="like-number"><span class="like-count-2">12</span> like(s)</p>
+                        <button id="button-2" onclick="incrementLike(this.id)">Like</button>
+                    </div>
+                </div>
+                <div class="description-container">
+                    <p class="description">Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div class="user-post-container">
+                <div class="user-post-header">
+                    <div class="feed-names">
+                        <p class="user-name">Jim R</p>
+                    </div>
+                    <div class="likes">
+                        <p class="like-number"><span class="like-count-3">9</span> like(s)</p>
+                        <button id="button-3" onclick="incrementLike(this.id)">Like</button>
+                    </div>
+                </div>
+                <div class="description-container">
+                    <p class="description">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.container {
+    margin: 20px;
+}
+
+div {
+    margin: 5px;
+}
+
+.search {
+    width: 6rem;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: teal;
+    color: teal;
+}
+
+.add {
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgb(66, 245, 144);
+    background-color: rgb(66, 245, 144);
+}
+
+.create-account {
+    color: white;
+    background: rgb(18, 166, 252);
+    box-shadow: 5px 3px 2px black;
+}

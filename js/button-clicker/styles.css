@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 1080px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ---------------- header ---------------- */
+.header {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.header > button {
+    color: white;
+    background: rgb(18, 166, 252);
+    box-shadow: 5px 3px 2px black;
+    height: 40px;
+    width: 100px;
+}
+
+.header > input {
+    line-height: 40px;
+    width: 500px;
+
+}
+
+
+/* ---------------- main body ---------------- */
+
+.row {
+    display: flex;
+    /* outline: 1px solid black; */ /* border to highlight main body area*/
+    margin-top: 50px;
+}
+
+.col-1 {
+    flex: 2;
+}
+
+.col-2 {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.col-1,.col-2{
+    display: flex;                      
+
+}
+
+.def-cards {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+
+}
+
+.def-1 {
+    display: flex;
+    padding: 30px 0px;
+    padding-top: 20px;
+}
+
+.def-1, .def-2 {
+    width: 700px;
+    background-color: #fff;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    height: 200px; /* limit height so container doesnt grow indefinitely*/
+    overflow: auto; /* cause where a definition exceeds default box size*/
+}
+
+.def-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 175px;
+    
+}
+
+.word-name {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.word-type {
+    font-size: 30px;
+}
+
+.word {
+    font-size: 20px;
+}
+
+
+.definition {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    padding: 50px;
+}
+
+.word-name > button, .def-2 > button {
+    color: black;
+    background: #ffd966 ;
+    box-shadow: 5px 3px 2px black;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.def-2 > button {
+    width: 300px;
+    background-color: #93c47d ;
+    margin: 0px;
+}
+
+.def-2 > p {
+    font-size: 37px;
+    margin-left: 15px; /* align text with edge of add def button*/
+}
+
+.definition > p {
+    font-size: 30px;
+}
+
+.word-name > h1 {
+    font-size: 50px;
+}

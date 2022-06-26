@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1080px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px auto;
+}
+
+li {
+    list-style: none;
+}
+
+main-content {
+    margin: 0px auto;
+}
+
+/* -------- header -------- */
+.header {
+    display: flex;
+    /* margin: 0px auto; */
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(159,197,248);
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.nav-bar-locations {
+    display: flex;
+}
+
+.nav-bar-locations > li {
+    margin: 20px;
+}
+
+/* -------- city/toggle temp unit -------- */ 
+.current-city {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 40px;
+    padding: 20px 0px;
+    font-size: 1.2rem;
+}
+
+#toggle-temperature {
+    height: 2rem;
+    margin-left: 5px;
+    font-size: 1.2rem;
+}
+
+/* -------- mainbody/forecast -------- */ 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.temp-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238,238,238);
+    /* height: 450px;
+    width: 240px; */
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+
+    
+}
+
+.temp-card > img {
+    border-radius: 50%;
+    width: 100%;
+    margin: 30px;
+}
+
+.high-low {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 80px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.high {
+    color: rgb(207,42,39);
+}
+
+.low {
+    color: rgb(43,120,228);
+}
+
+/* -------- cookie -------- */ 
+.cookie-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid black;
+    position: fixed;
+    width: 1080px;
+    bottom: 20px;
+    padding: 0px 20px;
+}
+
+.cookie-container > button {
+    margin-left: 30px;
+    width: 20rem;
+    height: 3rem;
+    box-shadow: 4px 6px;
+    background-color: rgb(159,197,248);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.cookie-container > img {
+    width: 200px;
+}
+
+.cookie-text {
+    margin-left: 30px;
+    font-size: 1.8rem;
+    padding: 20px 0px;
+}
+
+.cookie-text > h3 {
+    font-size: 2rem;
+}

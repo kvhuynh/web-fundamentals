@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(235, 240, 233);
+}
+
+img {
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.top-container, .middle-container, .bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.top-container {
+    background-color: teal;
+
+}
+
+.middle-container {
+    background-color: pink;
+}
+
+.bottom-container {
+    background-color: white;  
+}
